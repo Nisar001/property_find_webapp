@@ -1,7 +1,14 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'gold-500': '#ffd700',
+        'gold-600': '#ffc107', 
+      },
+    },
   },
   plugins: [],
-};
+}
